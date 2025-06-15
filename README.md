@@ -2,7 +2,7 @@
 
   <h3 align="center">NodeVoidKeeper</h3>
 
-  NodeVoidKeeper keeps your nodes centered around the Origin when saving or loading files
+  NodeVoidKeeper keeps your nodes from drifting into the void of the infinite canvas
   <br />
   <br />
   <a href="https://github.com/MagnumVD/NodeVoidKeeper/issues/new?assignees=&labels=bug">Report a Bug</a>
@@ -24,9 +24,11 @@
 
 ## What can it do? (About):
 
-NodeVoidKeeper keeps your nodes centered around the Origin when saving or loading files.
-That way your nodes won't slowly move into the infinite void of the canvas while you're working on them.
-This makes file sharing a lot easier for the recipient end, and you won't see anything while working or saving your files - the movement is seamless.
+It's an addon that keeps your nodes centered around (0,0) automatically everytime you save or load a file! I don't know why that isn't default behavior, but now this addon exists luckily. I also added some extra feature thingies:
+
+-If you have a node editor open, the viewport there will automatically pan together with the nodes, so they stay at the same place from your perspective and your workflow isn't interrupted!
+
+-The nodes keep their offset to the underlying grid (It doesn't look like it because the grid you see in the editor is bigger than the actual snapping grid.), so if you snapped your nodes to the grid, they will keep that alignment.
 
 ## Installation
 

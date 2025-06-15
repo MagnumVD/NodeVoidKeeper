@@ -2,8 +2,8 @@
 bl_info = {
     "name" : "NodeVoidKeeper",
     "author" : "MagnumVD",
-    "description" : "Keeps your nodes centered around the Origin when saving or loading files",
-    "blender" : (4, 0, 0),
+    "description" : "Keeps your nodes centered at the origin, so you can't lose them",
+    "blender" : (3, 6, 0),
     "version" : (1, 0, 1),
     "location" : "",
     "warning" : "",
