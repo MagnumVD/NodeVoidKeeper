@@ -21,6 +21,4 @@ def run(nodetree):
             case _:
                 continue
         
-        if property.default_value == '':
-            node.label = property.default_value
-            node.id_data.interface_update(bpy.context)
+        node.label = property.default_value
