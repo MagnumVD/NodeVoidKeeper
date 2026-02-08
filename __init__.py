@@ -15,7 +15,7 @@ from bpy.app.handlers import persistent
 from .functions import center_nodes
 from .functions import label_attr_nodes
 
-debug = True
+debug = False
 
 @persistent
 def nodevoidkeeper_save_pre(dummy):
